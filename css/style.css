@@ -19,7 +19,12 @@ sans-serif;
 
 header {
   position: relative;
-  background-color: #29a6dc;
+  background: rgb(24, 27, 128);
+  background: linear-gradient(
+    90deg,
+    rgba(24, 27, 128, 1) 0%,
+    rgba(24, 30, 209, 1) 100%
+  );
   height: 100vh;
   overflow: hidden;
   max-width: 1920px;
@@ -30,26 +35,29 @@ header > * {
   position: absolute;
 }
 
-header img {
-  height: 50%;
+header .foto {
+  height: 60%;
   bottom: 0;
   right: 0;
 }
 
+header .logo {
+  top: 0;
+  left: 0;
+  height: 400px;
+}
 header div.welcome {
   z-index: 1;
-  top: 7%;
+  top: 6%;
   left: 5%;
   right: 5%;
-  font-family: 'Saira Condensed',
-  sans-serif;
+  font-family: "Saira Condensed", sans-serif;
   color: white;
   font-size: 40px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
 }
-
 
 header h1 {
   margin-top: 15px;
@@ -62,7 +70,7 @@ header h2 {
 }
 
 header button {
-  font-family: 'Saira', sans-serif;
+  font-family: "Saira", sans-serif;
   font-weight: 300;
   line-height: 32px;
   padding: 0 20px;
@@ -102,7 +110,7 @@ header button {
     font-size: 20px;
   }
 
-  header img {
+  header .foto {
     right: -20%;
   }
 }
@@ -124,14 +132,13 @@ header button {
     font-size: 24px;
   }
 
-  header img {
+  header .foto {
     right: -20%;
   }
 }
 
-
 @media (orientation: landscape) {
-  header img {
+  header .foto {
     height: 80%;
     bottom: 0;
     right: -5%;
@@ -144,7 +151,6 @@ header button {
   header button {
     margin-top: 40px;
   }
-
 }
 
 @media (orientation: landscape) and (min-width: 640px) {
@@ -161,7 +167,6 @@ header button {
 }
 
 @media (orientation: landscape) and (min-width: 1024px) {
-
   header div.welcome {
     left: 3%;
   }
@@ -182,15 +187,13 @@ header button {
     line-height: 70px;
   }
 
-  header img {
+  header .foto {
     right: -22%;
     height: 85%;
-
   }
 }
 
 @media (orientation: landscape) and (min-width: 1280px) {
-
   header div.welcome {
     text-align: left;
     left: 6%;
@@ -213,16 +216,13 @@ header button {
     border-width: 2px;
   }
 
-  header img {
+  header .foto {
     right: -18%;
     height: 80%;
-
   }
-
 }
 
 @media (orientation: landscape) and (min-width: 1600px) {
-
   header div.welcome {
     left: 8%;
   }
@@ -240,24 +240,21 @@ header button {
     line-height: 90px;
   }
 
-  header img {
+  header .foto {
     right: -8%;
     height: 90%;
-
   }
-
 }
 
 @media (min-width: 1024px) {
   header button {
     cursor: pointer;
-    transition: .3s;
+    transition: 0.3s;
   }
   header button:hover {
     background-color: #fff;
     color: #111;
   }
-
 }
 
 section {
@@ -271,28 +268,23 @@ section {
   margin: 50px auto 0;
   padding: 5%;
   text-align: center;
-
 }
 
 .features h1 {
-  font-family: 'Saira Condensed',
-  sans-serif;
+  font-family: "Saira Condensed", sans-serif;
   font-size: 26px;
   text-transform: uppercase;
   margin-bottom: 15px;
-
 }
 
 .features h2 {
-  font-family: 'Saira Condensed',
-  sans-serif;
+  font-family: "Saira Condensed", sans-serif;
   font-size: 22px;
   text-transform: uppercase;
 }
 
 .features p {
-  font-family: 'Saira',
-  sans-serif;
+  font-family: "Saira", sans-serif;
   font-size: 12px;
   font-weight: 300;
   margin: 20px 0;
@@ -304,7 +296,7 @@ section {
   max-width: 375px;
 }
 
-@media (min-width:360px) {
+@media (min-width: 360px) {
   .features h1 {
     font-size: 28px;
   }
@@ -317,7 +309,7 @@ section {
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .features h1 {
     font-size: 36px;
   }
@@ -330,12 +322,11 @@ section {
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
   .features {
     margin-top: 50px;
     padding: 5% 2%;
     text-align: center;
-
   }
   .feature {
     float: left;
@@ -356,11 +347,8 @@ section {
   }
 }
 
-@media (min-width:1600px) {
-
-
+@media (min-width: 1600px) {
   .feature {
-
     padding: 20px 50px;
   }
   .features h1 {
@@ -384,8 +372,7 @@ section {
 
 .portfolio h1 {
   font-size: 28px;
-  font-family: 'Saira Condensed',
-  sans-serif;
+  font-family: "Saira Condensed", sans-serif;
   text-transform: uppercase;
   color: white;
   text-align: center;
@@ -399,8 +386,7 @@ section {
 
 .portfolio .about {
   color: white;
-  font-family: 'Saira',
-  sans-serif;
+  font-family: "Saira", sans-serif;
   font-weight: normal;
   padding: 10px 20px 20px 0;
   text-align: left;
@@ -432,8 +418,7 @@ section {
   background-color: #29a6dc;
 }
 
-@media (min-width:768px) {
-
+@media (min-width: 768px) {
   .portfolio h1 {
     font-size: 40px;
   }
@@ -451,7 +436,6 @@ section {
   .portfolio .project {
     margin-bottom: 40px;
   }
-
 }
 
 @media (orientation: landscape) {
@@ -467,7 +451,6 @@ section {
 
   .portfolio .project:nth-of-type(even) .web {
     float: right;
-
   }
   .portfolio .project:nth-of-type(even) .about {
     padding-right: 0;
@@ -479,10 +462,7 @@ section {
     text-indent: 0;
     margin-left: 40px;
   }
-
-
 }
-
 
 @media (orientation: landscape) and (min-width: 1400px) {
   .portfolio h1 {
@@ -507,23 +487,5 @@ section {
     margin-bottom: 40px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**/
