@@ -20,18 +20,16 @@ sans-serif;
 header {
   position: relative;
   background: rgb(24, 27, 128);
-  background: linear-gradient(
-    90deg,
-    rgba(24, 27, 128, 1) 0%,
-    rgba(24, 30, 209, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(24, 27, 128, 1) 0%,
+      rgba(24, 30, 209, 1) 100%);
   height: 100vh;
   overflow: hidden;
-  max-width: 1920px;
+  max-width: 2560px;
   margin: 0 auto;
 }
 
-header > * {
+header>* {
   position: absolute;
 }
 
@@ -46,6 +44,7 @@ header .logo {
   left: 0;
   height: 400px;
 }
+
 header div.welcome {
   z-index: 1;
   top: 6%;
@@ -85,6 +84,7 @@ header button {
   header h1 {
     font-size: 24px;
   }
+
   header h2 {
     font-size: 24px;
   }
@@ -100,6 +100,7 @@ header button {
   header h1 {
     font-size: 26px;
   }
+
   header h2 {
     font-size: 26px;
   }
@@ -119,9 +120,11 @@ header button {
   header p {
     font-size: 80px;
   }
+
   header h1 {
     font-size: 32px;
   }
+
   header h2 {
     font-size: 32px;
   }
@@ -143,11 +146,13 @@ header button {
     bottom: 0;
     right: -5%;
   }
+
   header div.welcome {
     top: 15%;
     left: 7%;
     right: 48%;
   }
+
   header button {
     margin-top: 40px;
   }
@@ -157,9 +162,11 @@ header button {
   header h1 {
     font-size: 24px;
   }
+
   header h2 {
     font-size: 24px;
   }
+
   header button {
     font-size: 16px;
     line-height: 40px;
@@ -174,13 +181,16 @@ header button {
   header p {
     font-size: 56px;
   }
+
   header h1 {
     margin-top: 40px;
     font-size: 34px;
   }
+
   header h2 {
     font-size: 34px;
   }
+
   header button {
     margin-top: 80px;
     font-size: 28px;
@@ -198,16 +208,20 @@ header button {
     text-align: left;
     left: 6%;
   }
+
   header p {
     font-size: 100px;
   }
+
   header h1 {
     margin-top: 40px;
     font-size: 50px;
   }
+
   header h2 {
     font-size: 50px;
   }
+
   header button {
     margin-top: 100px;
     font-size: 30px;
@@ -226,16 +240,20 @@ header button {
   header div.welcome {
     left: 8%;
   }
+
   header p {
     font-size: 120px;
   }
+
   header h1 {
     margin-top: 40px;
     font-size: 60px;
   }
+
   header h2 {
     font-size: 60px;
   }
+
   header button {
     line-height: 90px;
   }
@@ -251,6 +269,7 @@ header button {
     cursor: pointer;
     transition: 0.3s;
   }
+
   header button:hover {
     background-color: #fff;
     color: #111;
@@ -264,7 +283,7 @@ section {
 /* Sekcja 1 nasze cechy*/
 
 .features {
-  max-width: 1600px;
+  max-width: 2560px;
   margin: 50px auto 0;
   padding: 5%;
   text-align: center;
@@ -293,7 +312,7 @@ section {
 .features img {
   width: 100%;
   margin: 5px 0;
-  max-width: 375px;
+  max-width: 500px;
 }
 
 @media (min-width: 360px) {
@@ -304,6 +323,7 @@ section {
   .features h2 {
     font-size: 24px;
   }
+
   .features p {
     font-size: 14px;
   }
@@ -317,6 +337,7 @@ section {
   .features h2 {
     font-size: 28px;
   }
+
   .features p {
     font-size: 18px;
   }
@@ -328,14 +349,17 @@ section {
     padding: 5% 2%;
     text-align: center;
   }
+
   .feature {
     float: left;
     width: 33%;
     padding: 20px;
   }
+
   .coding {
     width: 100%;
   }
+
   .features h1 {
     font-size: 36px;
   }
@@ -343,9 +367,11 @@ section {
   .features h2 {
     font-size: 27px;
   }
+
   .coding h2 {
     font-size: 33px;
   }
+
   .features p {
     font-size: 16px;
     line-height: 120%;
@@ -357,6 +383,7 @@ section {
   .feature {
     padding: 20px 50px;
   }
+
   .features h1 {
     font-size: 60px;
   }
@@ -364,6 +391,7 @@ section {
   .features h2 {
     font-size: 32px;
   }
+
   .features p {
     font-size: 21px;
     line-height: 140%;
@@ -445,6 +473,7 @@ section {
 }
 
 @media (orientation: landscape) {
+
   .web,
   .about {
     width: 50%;
@@ -458,12 +487,15 @@ section {
   .portfolio .project:nth-of-type(even) .web {
     float: right;
   }
+
   .portfolio .project:nth-of-type(even) .about {
     padding-right: 0;
   }
+
   .portfolio .project:nth-of-type(even) .about p {
     padding-right: 20px;
   }
+
   .portfolio .project:nth-of-type(even) .about h2 {
     text-indent: 0;
     margin-left: 40px;
@@ -583,7 +615,7 @@ section {
 /* Sekcja hobby*/
 
 .hobby {
-  max-width: 1920px;
+  max-width: 2560px;
   margin: 0 auto;
 }
 
@@ -769,6 +801,7 @@ section {
     font-size: 60px;
     padding: 30px 0;
   }
+
   .contact form,
   .contact .socials {
     float: left;
@@ -787,6 +820,7 @@ section {
   .contact textarea {
     margin-bottom: 35px;
   }
+
   .contact input {
     height: 46px;
     font-size: 24px;
@@ -803,6 +837,7 @@ section {
     transition: 0.3s;
     cursor: pointer;
   }
+
   .contact button:hover {
     color: black;
     background-color: #fff;
@@ -811,11 +846,9 @@ section {
 
 footer {
   background: rgb(24, 27, 128);
-  background: linear-gradient(
-    90deg,
-    rgba(24, 27, 128, 1) 0%,
-    rgba(24, 30, 209, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(24, 27, 128, 1) 0%,
+      rgba(24, 30, 209, 1) 100%);
   color: white;
   font-family: saira, sans-serif;
   text-align: center;
